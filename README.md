@@ -7,5 +7,5 @@ Then, a line with the correct (relative or absolute) path to `checkmodified.php`
 
 ```
 // Check if we have modified sub-less/scss-files. If so, modify the parent less/scss-file so that a new complete less/scss.css-file can be generated
-$checkmodified = "../files/layout/scss/checkmodified.php"; if (file_exists($checkmodified)) include_once($checkmodofied);
+$checkmodified = "../files/layout/scss/checkmodified.php"; if (file_exists($checkmodified)) include_once($checkmodified);
 ```
